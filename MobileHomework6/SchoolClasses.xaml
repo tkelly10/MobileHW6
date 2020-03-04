@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileHomework6.SchoolClasses"
+             xmlns:local="clr-namespace:MobileHomework6;assembly=MobileHomework6">
+    <TableView>
+        <TableRoot>
+            <TableSection Title="Mobile">
+                
+            </TableSection>
+         
+            <TableSection Title="Capstone">
+
+            </TableSection>
+
+            <TableSection Title="Advanced Web Services">
+
+            </TableSection>
+        </TableRoot>
+
+    </TableView>
+
+</ContentPage>

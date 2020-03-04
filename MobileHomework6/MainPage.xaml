@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:MobileHomework6"
+             mc:Ignorable="d"
+             x:Class="MobileHomework6.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        
+            <Label Text="Mobile Homework" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Button Text="Clock"
+                    x:Name="btnClock"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    TextColor="{x:Static local:AppConstants.ButtonColor}"
+                    Clicked="Clock"/>
+            <Button Text="Classes for School"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Classes"
+                    TextColor="{x:Static local:AppConstants.ButtonColor}"/>
+            <Button Text="Month and Date"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Month"
+                    TextColor="{x:Static local:AppConstants.ButtonColor}"/>
+    </StackLayout>
+</ContentPage>
